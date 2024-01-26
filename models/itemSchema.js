@@ -5,6 +5,10 @@ const itemSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    ID: {
+        type: Number,
+        required: true
+    },
     description: {
         type: String,
         required: true
